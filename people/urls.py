@@ -18,6 +18,8 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from people_collection.views import People_View_Set
+# Come back to the below
+# from people_limbs.views import People_Limbs_View_Set
 
 # create a router
 router=routers.DefaultRouter()

@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'people_collection.apps.PeopleCollectionConfig',
     # add rest_framework
     'rest_framework',
+    # import people limbs
+    'people_limbs.apps.PeopleLimbsConfig'
     
 ]
 
